@@ -1,28 +1,27 @@
-# Development
+# Słodka Minutka 🍰
 
-Your new bare-bones project includes minimal organization with a single `main.rs` file and a few assets.
+Słodka Minutka to webowy asystent kuchenny, który ułatwia codzienne gotowanie i pieczenie. Aplikacja łączy w sobie podręczną, przeszukiwalną książkę kucharską z inteligentnym przelicznikiem miar kuchennych.
 
-```
-project/
-├─ assets/ # Any assets that are used by the app should be placed here
-├─ src/
-│  ├─ main.rs # main.rs is the entry point to your application and currently contains all components for the app
-├─ Cargo.toml # The Cargo.toml file defines the dependencies and feature flags for your project
-```
+## ✨ Główne funkcje
 
+* **Książka kucharska:** Wbudowana baza przepisów z dynamiczną wyszukiwarką. Moduł można łatwo zwijać i rozwijać, aby zachować porządek na ekranie.
+* **Inteligentny Kalkulator Kuchenny:** Przelicza miary objętościowe na wagowe (i odwrotnie) z uwzględnieniem gęstości konkretnych składników (m.in. mąki, oleju, masła, cukru czy miodu).
+* **Zaawansowane przeliczniki:** Szybka konwersja pomiędzy mililitrami, gramami, szklankami, łyżkami i łyżeczkami. Wystarczy wkleić tekst przepisu, a aplikacja automatycznie podmieni wartości.
 
+## 🛠 Technologie
 
-### Serving Your App
+* **[Rust](https://www.rust-lang.org/)** – język programowania
+* **[Dioxus](https://dioxuslabs.com/)** – framework do budowy interfejsu użytkownika (SPA)
+* **CSS** – stylowanie aplikacji
 
-Run the following command in the root of your project to start developing with the default platform:
+## 🚀 Uruchomienie lokalne
 
-```bash
-dx serve
-```
+Aby uruchomić projekt na swoim komputerze, musisz mieć zainstalowane środowisko języka Rust oraz narzędzie Dioxus CLI.
 
-To run for a different platform, use the `--platform platform` flag. E.g.
-```bash
-dx serve --platform desktop
-```
-
+1. **Instalacja Dioxus CLI** (jeśli jeszcze go nie masz):
+   ```bash
+   cargo install dioxus-cli
+2. Jak zainstalujesz to
+   dx serve
+   
 
